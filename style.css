@@ -48,7 +48,7 @@ main {
 .s1,
 .s2,
 .s3 {
-border:#000 solid 1px;
+  border: #000 solid 1px;
 }
 
 .s2 {
@@ -68,11 +68,18 @@ border:#000 solid 1px;
 
 .list1_1 {
   border: #f01010 solid 1px;
+  margin: 1.1%;
 }
 
-.list1_block1 {
+.list1_block1,
+.list2_block1 {
   width: auto;
   padding: 1%;
   color: white;
   background-color: red;
+}
+.list1_block3,
+.list2_block3 {
+  margin-left: auto;
+  margin-right: 0;
 }
