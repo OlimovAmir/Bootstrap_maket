@@ -1,0 +1,78 @@
+body {
+  background: rgb(226, 223, 223);
+}
+.menu-header li {
+  list-style-type: none;
+}
+
+.band {
+  background: #000;
+  transform: rotate(-5deg);
+}
+
+main {
+  padding: 50px 0px;
+}
+
+#foto_vector1,
+#foto_vector2,
+#foto_vector3 {
+  max-width: 15px;
+}
+
+.foto_vector3 {
+  max-width: 15px;
+}
+
+.nav {
+  padding: 50px;
+}
+
+.btn-letsTalk {
+  width: auto;
+}
+.btn-1 {
+  padding: 0;
+  margin: 0;
+}
+.button1 {
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+
+.p1 {
+  font-size: 45px;
+}
+
+.s1,
+.s2,
+.s3 {
+border:#000 solid 1px;
+}
+
+.s2 {
+  background: #000;
+  color: white;
+}
+
+.awardsBlock1 {
+  font-size: 30px;
+}
+
+.list {
+  border: #000 solid 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list1_1 {
+  border: #f01010 solid 1px;
+}
+
+.list1_block1 {
+  width: auto;
+  padding: 1%;
+  color: white;
+  background-color: red;
+}
