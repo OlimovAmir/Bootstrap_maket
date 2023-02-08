@@ -60,47 +60,42 @@ main {
   color: white;
 }
 
-.awardsBlock1 {
-  font-size: 30px;
-}
-
 .list {
   border: var(--main-br-color) solid 1px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.list1_1 {
- margin: 1.1%;
+.list1_1,
+.list1_2 {
+  margin: 1.1%; /*общий отступ внутри каждого блока */
 }
 
-.list1_block1,
+.list1_block1, /*отступ в красном квадрате*/
 .list2_block1 {
   width: auto;
   padding: 1%;
- }
+}
 .list1_block3,
 .list2_block3 {
   margin-left: auto;
   margin-right: 0;
 }
 
-.servicesBlock1
- {
+.servicesBlock1 {
   border: var(--main-br-color) solid 3px;
-  width: auto; 
+  width: auto;
   padding: 3% 8.5% 3% 8.5%;
 }
-
+.awards,
 .containerServices,
 .Articles {
-  
   margin-top: 3%;
   margin-bottom: 3%;
 }
 .happyCustomerBlock {
   border: var(--main-br-color) solid 3px;
-  max-width: 24%; 
+  max-width: 24%;
   padding: 3% 8.5% 3% 8.5%;
 }
 
@@ -110,6 +105,52 @@ main {
   margin: 0%;
 }
 .footer1 {
-  min-height: 100px;
-  
+  min-height: 150px;
+}
+
+.footer2 {
+  min-height: 200px;
+}
+
+.containerFooter1 {
+  padding-top: 60px;
+}
+
+.containerFooter2 {
+  height: 100px;
+}
+
+.containerBlock2_2 {
+  height: 100px;
+}
+
+.containerMain {
+  padding-top: 150px;
+}
+
+.static {
+  height: 100px;
+}
+
+.portfolioText1 {
+  padding: 7px;
+  margin-top: 10px;
+}
+
+.portfolioText1_3 {
+  margin-top: 100px;
+}
+
+input {
+  height: 35px;
+}
+
+.portfolio img {
+
+ 
+}
+
+.portfolio img:hover {
+  transform: scale(1.4);
+  transition-duration: 1s;
 }
