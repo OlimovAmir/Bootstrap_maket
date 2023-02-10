@@ -11,7 +11,7 @@ body {
 
 .band {
   background: var(--main-br-color);
-  transform: rotate(-5deg);
+  transform: rotate(-10deg);
 }
 
 main {
@@ -28,13 +28,6 @@ main {
   max-width: 15px;
 }
 
-.nav {
-  padding: 50px;
-}
-
-.btn-letsTalk {
-  width: auto;
-}
 .btn-1 {
   padding: 0;
   margin: 0;
@@ -86,8 +79,9 @@ main {
   border: var(--main-br-color) solid 3px;
   width: auto;
   padding: 3% 8.5% 3% 8.5%;
+  margin: 5px;
 }
-.awards,
+
 .containerServices,
 .Articles {
   margin-top: 3%;
@@ -95,8 +89,11 @@ main {
 }
 .happyCustomerBlock {
   border: var(--main-br-color) solid 3px;
-  max-width: 24%;
-  padding: 3% 8.5% 3% 8.5%;
+  margin-bottom: 5px;
+  margin: 0px;
+  width: 22%;
+  height: 100px;
+  padding-top: 30px ;
 }
 
 .articlesBlock2 {
@@ -128,10 +125,6 @@ main {
   padding-top: 150px;
 }
 
-.static {
-  height: 100px;
-}
-
 .portfolioText1 {
   padding: 7px;
   margin-top: 10px;
@@ -145,12 +138,11 @@ input {
   height: 35px;
 }
 
-.portfolio img {
-
- 
-}
-
 .portfolio img:hover {
   transform: scale(1.4);
   transition-duration: 1s;
+}
+
+.containerAwards {
+  margin-top: 30px;
 }

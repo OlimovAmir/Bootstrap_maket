@@ -1,49 +1,204 @@
-// XX-Large devices (larger desktops, 1400px and up)
-@media (max-width: 1400px) { ... }
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+  .band {
+    margin-bottom: 100px;
+  }
+  .containerMain {
+    padding-top: 0px;
+}
 
-// X-Large devices (large desktops, 1200px and up)
-@media (max-width: 1200px) { ... }
+  
+}
 
-// Large devices (desktops, 992px and up)
-@media (max-width: 992px) { ... }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .band {
+    margin-bottom: 100px;
+  }
 
-// Medium devices (tablets, 768px and up)
-@media (max-width: 768px) { ... }
-
-@media (max-width: 576px) { 
-    .containerMain {
-        padding-top: 0px;
-      }
+  .containerMain {
+    padding-top: 0px;
+}
+.servicesBlock1 {
+  width: 50%;
+  padding: 0;
+ 
  }
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .band {
+    margin-bottom: 50px;
+  }
+  .containerMain {
+    padding-top: 0px;
+}
+
+.servicesBlock1 {
+ width: 100%;
+
+}
 
 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .band {
+    margin-bottom: 50px;
+  }
+  
+.containerMain {
+    padding-top: 0px;
+  }
+  .btn-1 {
+    margin-top: 10px;
+  }
+
+  .mainImg > img {
+    width: 500px;
+  }
+
+  .btn-letsTalk {
+    margin-top: 10px;
+  }
+
+  .p1 {
+    font-size: 35px;
+  }
+  .portfolioText1_3 {
+    margin-top: 20px
+  }
+
+  .servicesBlock1 {
+    width: 100%;
+  }
+
+  .logoSocial {
+    width: auto;
+    
+  }
+  .social {
+    width: auto;
+  }
+
+  .artDirectionBlock1_1 {
+    display: flex;
+    flex-direction: column-reverse;
+   
+  }
+  
+  .motionGraphics {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .bandBlock {
+    border: rgb(97, 98, 99) solid 1px;
+    text-align: center;
+    
+  }
+
+  .artDirectionBlock1 {
+    text-align: end;
+  }
+}
+/*-------------------*/
+@media (max-width: 576px) {
+  .containerMain {
+    padding-top: 0px;
+  }
+  .mainImg > img {
+    width: 350px;
+  }
+  .portfolio img {
+    width: 330px;
+  }
+
+  .btn-letsTalk {
+    margin-top: 10px;
+  }
+
+  main {
+    padding: 5px 0px;
+  }
+  .nav {
+    margin-left: 20px;
+  }
+
+  .btn-1 {
+    margin-top: 10px;
+  }
+  .servicesBlock1 {
+    padding: 3px 0px 3px 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+ 
+  }
+  
+  .p1 {
+    
+    font-size: 35px;
+  }
+  .containerAwards {
+    margin-top: 10px;
+  }
+
+.portfolioText1_3 {
+  margin-top: 20px
+}
+.band {
+  transform: rotate(0deg);
+  width: 100%;
+  font-size: smaller;
+  height: 100%;
+  
+}
+.bandBlock {
+  border: rgb(97, 98, 99) solid 1px;
+  text-align: center;
+  
+}
+
+.awardsBlock {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.artDirectionBlock1_1 {
+  display: flex;
+  flex-direction: column-reverse;
+ 
+}
+
+.motionGraphics {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.artDirectionBlock1 {
+  text-align: start;
+}
 
 
+.happyCustomerBlock {
+ width: 100%;
+height: 60px;
+}
 
+.logoSocial {
+  width: auto;
+  
+}
+.social {
+  width: auto;
+}
 
+.servicesBlock1 {
+  margin-right: 550px;
+  
+}
 
-
-
-
-
-
-
-
-
-
-
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
+}
